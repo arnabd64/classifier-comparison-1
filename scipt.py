@@ -109,7 +109,7 @@ print(classification_report(y_test, knn.predict(X_test), target_names = class_na
 # AUC-ROC
 AUC_ROC(knn, X_train, X_test, y_train, y_test)
 
-## Decision Tree
+# Decision Tree
 from sklearn.tree import DecisionTreeClassifier
 ## Training model
 dtc = DecisionTreeClassifier(max_depth = 4)
